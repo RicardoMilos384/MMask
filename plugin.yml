@@ -1,0 +1,15 @@
+name: MMask
+main: MMask\Main
+api: 3.9.3
+version: 0.0.1
+author: DontTouchMeXD
+description: Mask Plugin For Pmmp By Ricardomilos
+commands:
+  mmask:
+    description: "open mask menu"
+    permission: mask.menu
+    usage: /mmask
+permissions:
+  mask.menu:
+    default: op
+    description: Allow Player To Open Mask Menu
