@@ -1,7 +1,10 @@
 --- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/RicardoMilos384/MMask
 branches:
 - master
+- work-around
 projects:
   MMask:
     path: ""
+    fullGzip: 5
+    compressBuilds: false
 ...
