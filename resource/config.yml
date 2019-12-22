@@ -1,0 +1,15 @@
+---
+Config By DontTouchMeXD
+This Mask Plugin Have Effect Per Mask You Can Edit Effect On Effects on SRC
+
+# Price For Mask
+price.normal: 50000
+price.healer: 75000
+price.infection: 100000
+price.protector: 150000
+price.hercules: 300000
+price.dragon: 500000
+
+# Have Enough price Message
+msg.no-price: "§cYou don't have enough price."
+...
