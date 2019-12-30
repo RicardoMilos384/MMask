@@ -5,7 +5,7 @@ declare(strict_types=1);
 namespace MMask;
 
 use pocketmine\plugin\PluginBase;
-use MMask\task\EffectTask;
+use MMask\Task\EffectTask;
 use pocketmine\Player; 
 use pocketmine\Server;
 use pocketmine\event\Listener;
