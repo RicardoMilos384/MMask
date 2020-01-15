@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace MMask\task;
+namespace EffectTask\task;
 
 use MMask\Main;
 use pocketmine\item\Item;
