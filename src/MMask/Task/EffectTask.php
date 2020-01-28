@@ -10,7 +10,7 @@ use pocketmine\scheduler\Task;
 use pocketmine\entity\Effect;
 use pocketmine\entity\EffectInstance;
 
-class EffectTask extends Task{
+class EffectTask extends Task {
     
     public function onRun(int $tick) : void{
         foreach(Main::getInstance()->getServer()->getOnlinePlayers() as $players){
