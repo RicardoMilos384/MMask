@@ -15,6 +15,6 @@ the effect to op ??
 You Can Edit The Effect In EffectTask on Src\MMask\Task And Edit Or Add Some Effect To Mask
 
 # Next Update
-Add PARTICLE on mask [ but idk :v ]
+Add PARTICLE on mask if i have time
 
 # Thank You
