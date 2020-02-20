@@ -8,6 +8,7 @@ use MMask\Main;
 use pocketmine\item\Item;
 use pocketmine\scheduler\Task;
 use pocketmine\entity\Effect;
+use pocketmine\utils\config;
 use pocketmine\entity\EffectInstance;
 
 class EffectTask extends Task {
@@ -19,8 +20,8 @@ class EffectTask extends Task {
             if(!$helmet->getId() === Item::MOB_HEAD) return;
             switch($helmet->getDamage()){
                 case 2:
-                    $players->addEffect(new EffectInstance(Effect::getEffect(Effect::SPEED), 30, 2, false));
-                    $players->addEffect(new EffectInstance(Effect::getEffect(Effect::NIGHT_VISION), 30, 1, false));
+                    $players->addEffect(new EffectInstance(Effect::getEffect(Effect::$this->getConfig()->get("effect-1")), 30, 2, false));
+                    $players->addEffect(new EffectInstance(Effect::getEffect(Effect::$this->getConfig()->get("effect-2")), 30, 1, false));
                     return;
                 case 1:
                     $players->addEffect(new EffectInstance(Effect::getEffect(Effect::HEALTH_BOOST), 30, 2, false));
